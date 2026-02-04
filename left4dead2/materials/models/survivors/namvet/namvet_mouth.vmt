@@ -1,0 +1,7 @@
+Teeth
+{
+	"$basetexture" "Models/Survivors/NamVet/NamVet_Mouth"
+	"$model" 1
+	"$clientshader" "MouthShader"
+	"$halflambert" 1
+}

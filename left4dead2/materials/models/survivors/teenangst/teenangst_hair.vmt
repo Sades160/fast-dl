@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "models/survivors/Teenangst/TeenAngst_Hair"
+$halflambert 1
+$translucent 1
+$nocull 1
+}

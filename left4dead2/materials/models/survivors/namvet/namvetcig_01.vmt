@@ -1,0 +1,17 @@
+VertexLitGeneric
+{
+$BaseTexture "Models/Survivors/NamVet/NamVetCig_01"
+$HalfLambert "1"
+$SelfIllum "1"
+$SelfIllumTint "[ 0.001 0.001 0.001 ]"
+Proxies
+	{
+		Sine
+		{
+			ResultVar "$SelfIllumTint"
+			SinePeriod "2.50"
+			SineMin "0.10"
+			SineMax "0.50"
+		}
+	}
+}

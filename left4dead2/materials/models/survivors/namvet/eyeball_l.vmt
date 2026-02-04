@@ -1,0 +1,6 @@
+"eyes"
+{
+	"$basetexture" "models/survivors/biker_manager_eyeball_l"
+	"$iris" "Models/Survivors/Blue_Pupil"
+	"$halflambert" 1
+}
