@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+$basetexture "Models/Survivors/Biker/Biker_Hair_01"
+$halflambert 1
+$translucent 1
+$nocull 1
+}

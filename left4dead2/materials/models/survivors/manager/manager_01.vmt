@@ -1,0 +1,29 @@
+VertexLitGeneric
+{
+$basetexture "Models/Survivors/Manager/Manager_01"
+$bumpmap "Models/Survivors/Manager/Manager_01_Normal"
+$phong 1
+$phongboost 1.4
+$phongexponent 5
+$phongtint "[.85 .85 1]"
+$phongfresnelranges "[.5 .85 30]"
+$diffuseexp "1.5"
+$basemapluminancephongmask 1
+$detail "Models/Survivors/survivor_it.vtf"
+$detailscale 3
+$detailblendfactor ".001" 
+$detailblendmode 0
+$ITAmount 0
+Proxies
+{
+IT
+{
+resultVar $ITAmount
+}
+Equals
+{
+srcVar1 $ITAmount
+resultVar $detailblendfactor
+}
+}
+}
